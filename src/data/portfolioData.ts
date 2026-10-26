@@ -26,13 +26,39 @@ export const personalInfo: PersonalInfo = {
 };
 
 export const experiences: Experience[] = [
+    {
+    id: 'bluebricks',
+    role: 'Full Stack Intern',
+    company: 'BlueBricks Solution',
+    duration: 'July 2026 – October 2026',
+    type: 'Remote',
+    isCurrent: false,
+    bullets: [
+      'Built an organization-facing Gen AI Configuration interface using Next.js, React, MUI, and Redux Toolkit, supporting 6 AI tasks across 3 providers: OpenAI, Gemini, and DeepSeek',
+      'Re-architected LLM configuration into a multi-tenant, organization-scoped model, isolating AI settings for each customer organization',
+      'Built the ticketing module for Axiom Admin Portal and SSP Client Portal, enabling end-to-end support ticket creation, assignment, tracking, and resolution',
+      'Enhanced the OTAA dashboard and integrated REST APIs for dynamic, API-driven frontend data display',
+      'Built a Document Tampering Detection module using AI-based forgery detection, metadata checks, and modification-date validation to generate detailed verification reports',
+    ],
+    techs: [
+      'Next.js',
+      'React.js',
+      'TypeScript',
+      'Material UI',
+      'Redux Toolkit',
+      'Node.js',
+      'REST APIs',
+      'Gen AI',
+    ],
+  },
+
   {
     id: 'pulsegen',
     role: 'Software Development Intern',
     company: 'Pulsegen Technologies Private Limited',
     duration: 'October 2025 – Present',
     type: 'Onsite',
-    isCurrent: true,
+    isCurrent: false,
     bullets: [
       'Developed and optimized scalable web modules used by 5,000+ users, improving page load performance by 30%',
       'Implemented backend APIs using Node.js and Express, reducing API response time by 25%',
